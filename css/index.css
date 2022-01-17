@@ -1,0 +1,440 @@
+*{
+    margin:0px;padding: 0px;
+    font-family: 'Dongle', sans-serif;
+}
+
+.navbar{
+    width:90%;
+    height: auto;
+    margin: auto;
+    padding:30px 0px;
+
+}
+
+.navbar ul{
+    display: inline-block;
+    /* padding: 25px; */
+}
+
+
+/* THis is logo */
+.navIcon{
+    visibility: hidden;
+    margin-left: -20px;
+}
+.logo li{
+    list-style:none;
+    display: inline-block;
+
+}
+
+.logo li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+}
+
+/* nav menu option */
+
+.nav_menu{
+    float: right;
+    visibility:visible;
+}
+
+.nav_menu li{
+    display: inline-block;
+    width:70px;
+    text-align: center;
+    list-style: none;
+}
+
+.nav_menu li a{
+    text-decoration: none;
+}
+
+
+
+.sopping_card{
+    float: right;
+}
+
+.sopping_card li{
+    list-style: none;
+}
+
+.sopping_card li a{
+    text-decoration: none;
+}
+
+
+
+/* Section One Style */
+
+.section_1{
+    width:90%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.section_1 ul{
+  display: inline-block;
+  /* border: 1px solid red; */
+}
+
+.WelcomeText{
+    padding-top: 10%;
+    width:530px;
+}
+
+.WelcomeText h2{
+    font-size:50px;
+    font-weight: 600;
+    color: rgb(54, 54, 54);
+    text-shadow: .5px .1px gray;
+}
+
+.WelcomeText p{
+    font-size:16px;
+    margin: 5px 0px;
+    margin-bottom: 25px;
+}
+
+.WelcomeText a{
+    background: rgb(111, 178, 255);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.welcomeImage{
+    float: right;
+    width:380px;
+ }
+/* .welcomeImage img{
+   width:90%;
+   height: auto;
+} */
+
+.hr{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+/* Section 2 Style */
+
+.Section_2{
+    margin: auto;
+
+}
+
+
+.Section_2 h2{
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+   color: gray;
+   margin: 20px 0px;
+}
+.Section_2 div{
+    width:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Section_2 div ul{
+    flex:15%;
+    padding:8px;
+    box-shadow: 0px 0px 3px;
+    margin-left:1.5%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.Section_2 div ul img{
+    width: 100%;
+ }
+  
+.Section_2 div ul h4{
+    margin-top:8px;
+ }
+  
+ 
+.Section_2 div ul li{
+   list-style: none;
+   padding: 5px 0px;
+
+}
+
+.Section_2 div ul p{
+    color: rgb(163, 162, 162);
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    
+ }
+ 
+
+
+ /* Section 3 */
+
+ .section_3{
+     width:80%;
+     height: auto;
+     margin: auto;
+     margin-top:10%;
+     padding-bottom:10%;
+ }
+
+ .section_3 ul{
+    display: inline-block;
+
+}
+
+.imgForText img{
+    width:100%;
+    max-width:400px;
+
+}
+
+.text{
+    width:60%;
+    margin-left: 15px;
+}
+
+.text h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+    margin: 10px 0px;
+}
+
+.text p{
+    margin-bottom: 15px;
+}
+
+.text a{
+    text-decoration: none;
+    color:white;
+    padding:8px;
+    background-color: rgb(111, 178, 255);
+}
+
+
+
+
+.footer{
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+    height:auto;
+    padding: 10px 0px;
+    background: rgb(167, 79, 255);
+    color: white;
+}
+
+
+.footer div p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.footer ul i{
+    display: inline-block;
+    margin:5px
+}
+
+@media (max-width:1024px) {
+    
+.WelcomeText{
+    padding-top: 10%;
+    width:400px;
+}
+
+.WelcomeText h2{
+    font-size:30px;
+    font-weight: 600;
+}
+
+.welcomeImage{
+    width:270px;
+ }
+.welcomeImage img{
+   width:100%;
+   max-width: 300px;
+}
+
+
+.Section_2 div{
+    width:90%;
+}
+
+.Section_2 div ul img {
+    width: 100%;
+    max-width: 350px;
+}
+
+
+.text{
+    width:48%;
+    margin-top: 4%;
+}
+
+
+}
+
+@media (max-width:768px) {
+    .nav_menu li{
+        width:60px;
+    }
+
+
+    .section_1{
+        display: flex;
+    }
+
+    .WelcomeText{
+        padding-top: 10%;
+        /* width:250px; */
+    }
+    
+    .WelcomeText h2{
+        font-size:20px;
+        font-weight: 600;
+    }
+    .WelcomeText p{
+        font-size:15px;
+        font-weight:400;
+    }
+    .welcomeImage{
+        width:200px;
+        float: right;
+     }
+    .welcomeImage img{
+       width:100%;
+       max-width: 300px;
+    }
+
+
+
+    
+    .text{
+        width:100%;
+    }
+    .imgForText {
+        width: 95%;
+        margin: auto;
+    }
+    .imgForText img{
+        width: 100%;
+        max-width:500px;
+    }
+    
+
+    /* .footer{
+        margin-top:30%;
+
+    } */
+}
+
+
+
+
+@media (max-width:600px) {
+    .logo{
+        width:70%;
+    }
+    .navIcon{
+        visibility: visible;
+        margin-left:0px;
+    }
+
+
+    .logoIcon{
+        float: right;
+    }
+    .nav_menu li{
+        visibility: hidden;
+    }
+
+   
+
+    .Section_2 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .Section_2 div ul{
+        flex:100%;
+    }
+
+    .Section_2 div ul img{
+        width:100%;
+        max-width: 500px;
+    }
+    
+
+}
+
+@media (max-width:507px) {
+    .section_1 {
+       margin: auto;
+    }
+    .section_1 ul{
+        display: block;
+        position: absolute;
+        /* width: 100%; */
+        margin: auto;
+    }
+
+    .WelcomeText{
+        width: 90%;
+        padding-left:2%;
+        padding-top:50%;
+    }
+
+    .welcomeImage{
+        padding-top: 10px;
+        padding-left:18%;
+    }
+
+    .hr{
+        margin-top: 100%;
+    
+    }
+}
+
+
+@media (max-width:425px) {
+    .logo{
+        width:80%;
+    }
+
+    .logoIcon{
+        float: right;
+        margin-right: 15px;
+    }
+
+    .hr{
+        margin-top: 120%;
+    
+    }
+
+
+
+}
+
+@media (max-width:425px) {
+    .WelcomeText{
+        padding-top:60%;
+    }
+}
